@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  ja_pierdole:
+    container_name: ja_pierdole
+    image: ja_pierdole
+    build: .
+
+    ports:
+      - 8877:8877
+    restart: unless-stopped
+    read_only: true
