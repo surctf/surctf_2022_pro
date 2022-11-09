@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  labyrinth:
+    container_name: labyrinth
+    image: labyrinth
+    build: .
+
+    ports:
+      - 9966:9966
+    restart: unless-stopped
+    read_only: true
