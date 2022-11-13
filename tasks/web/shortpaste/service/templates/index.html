@@ -1,0 +1,56 @@
+{{define "title"}}
+	{{if .UserAuth.IsAuthorized}}
+		Мои пасты | SHORTPASTE
+	{{else}}
+		ShortPaste
+	{{end}}
+{{end}}
+
+{{define "content"}}
+	{{if .UserAuth.IsAuthorized }}
+		<div class="subcontainer" id="form">
+			<form action="/new_paste" method="POST">
+				<div class="justText h2Text">[ Новая короткая паста ]</div>
+				<div><label class="justText" for="title">Название</label></div>
+				<div><input name="title" placeholder="Я джва года хочу..." /></div>
+				<div><label class="justText" for="content">Текст</label></div>
+				<div><textarea name="content" oninput='this.style.height = "";this.style.height = this.scrollHeight + (-3) + "px"' placeholder="Здраствуйте. Я, Кирилл. Хотел бы чтобы вы сделали игру, 3Д-экшон суть такова..."></textarea></div>
+				<div>
+				</div>
+				<div><span class="justText">[ <button> Создать </button> ]</span></div>
+			</form>
+		</div>
+		<div class="subcontainer" id="pasteList">
+			<div><span class="justText h2Text">[ Твои короткие пасты ]</span></div>
+			<ul>
+				{{range .UserAuth.User.Pastes}}
+					<li><a href="/paste/{{ .GetB64URL }}">< {{ .Title }} ></a> </li>
+				{{end}}
+			</ul>
+		</div>
+	{{ else }}
+		<div class="subcontainer" id="form">
+			<form action="/sign_in" method="POST">
+				<div class="justText h1Text">[ Вход ]</div>
+				<div><label class="justText" for="username">Юзернейм:</label></div>
+				<div><input name="username", placeholder="hypeuser_1337" /></div>
+				<div><label class="justText" for="password">Пароль:</label></div>
+				<div><input name="password" type="password" placeholder="very_secure1337" /></div>
+				<div><span class="justText">[ <button> Войти </button> ]</span></div>
+			</form>
+		</div>
+
+		<div class="subcontainer" id="form">
+			<form action="/sign_up" method="POST">
+				<div class="justText h1Text">[ Регистрация ]</div>
+				<div><label class="justText" for="password">
+					Юзернейм:<br>
+					<span style="color: #ECE5D5;font-size: 14px;">&lt Хайпово сгенерируется &gt</span><br>
+					Пароль:</label>
+				</div>
+				<div><input name="password" type="password" placeholder="very_secure1337" /></div>
+				<div><span class="justText">[ <button> отправить </button> ]</span></div>
+			</form>
+		</div>
+	{{ end }}
+{{end}}

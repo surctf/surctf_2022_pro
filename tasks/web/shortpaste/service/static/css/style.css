@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Pixel Cyr Normal';
+    font-style: normal;
+    font-weight: 400;
+    src:url(/static/fonts/pixel-cyr-normal_121553396adc0078071014142a511443.woff) format('woff'),
+        url(/static/fonts/pixel-cyr-normal_121553396adc0078071014142a511443.ttf) format('truetype');
+}
+
+* {
+	font-family: 'Pixel Cyr Normal', arial;
+	font-size: 20px;
+}
+
+body {
+	margin: 0 0;
+	background-color: #1B1B3A;
+	overflow-x: hidden;
+
+}
+
+#error {
+	border: 2px #E13D66 solid;
+	position: absolute;
+	width: 256px;
+
+	opacity: 100%;
+	top: 61px;
+	right: 100%;
+	background-color: #D2C39D;
+	z-index: 1;
+	padding-left: 4px;
+	padding-bottom: 4px;
+
+	-webkit-animation: shift 8s cubic-bezier(.5,1,.5,0) forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: shift 8s cubic-bezier(.5,1,.5,0) forwards; /* Firefox < 16 */
+        -ms-animation: shift 8s cubic-bezier(.5,1,.5,0) forwards; /* Internet Explorer */
+         -o-animation: shift 8s cubic-bezier(.5,1,.5,0) forwards; /* Opera < 12.1 */
+            animation: shift 8s cubic-bezier(.5,1,.5,0) forwards;
+}
+
+#error:onload {
+
+}
+
+#error > span {
+	font-size: 14px;
+	background-color: ;
+	color: #463B20;
+	word-wrap:break-word;
+}
+
+#headerContainer {
+	margin-top: 8px;
+}
+
+#header {
+	background-color: #342275;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#logo {
+	margin-left: 8px;
+}
+
+#profileLogout {
+	float: right;
+	margin-right: 8px;
+}
+
+#headerLine {
+	background-color: #D2C39D;
+	height: 4px;
+}
+
+.justText {
+	color: #D2C39D;
+}
+
+.h1Text {
+	font-size:32px;
+	margin-bottom: 4px;
+}
+
+.h2Text {
+	font-size:24px;
+	margin-bottom: 4px;
+}
+
+#content {
+	margin: auto;
+	width: 99%;
+	height: 100%;
+/*	background-color: red;*/
+}
+
+.subcontainer {
+	border: 4px #D2C39D solid;
+	width: 70%;
+	max-width: 600px;
+/*	display: inline;*/
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	margin-left: auto;
+	margin-right: auto;
+/*	width: 10%;*/
+	background-color: #342275;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#pasteList {
+	text-align: center;
+}
+
+#pasteList > ul {
+	margin: 0px;
+	list-style: none;
+/*	display: inline-block;*/
+	padding-left: 0px;
+}
+
+#pasteList > ul > li{
+	margin-top: 4px;
+/*	display: block;*/
+	margin-bottom: 4px;
+}
+
+#form > form {
+	text-align: center;
+}
+
+#form > form > div {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+#form > form > div > label {
+	font-size: 16px;
+}
+
+/*span {
+	display: inline-block;
+}*/
+
+input, textarea {
+	border: none;
+	color: #ECE5D5;
+	background-color: #1B1B3A;
+
+	padding-top: 1px;
+	padding-bottom: 2.5px;
+	padding-left: 10px;
+	padding-right: 5px;
+
+	font-size: 16px;
+	border: 2px #D2C39D solid;
+}
+
+input[name="title"] {
+	width: 60%;
+}
+
+input[name="password"] {
+	padding-bottom: 3px;
+	margin-bottom: 4px;
+}
+
+.justText > button {
+/*	margin-top: 5px;*/
+}
+
+textarea[name="content"] {
+	width: 60%;
+	font-size: 14px;
+	overflow:hidden;
+	resize: none;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border-color: #50B95A;
+}
+
+a {
+	text-decoration: none;
+	color: #50B95A;
+}
+
+a:hover {
+	display: inline-block;
+	-webkit-transform: scale(1.1);
+}
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #50B95A;
+  cursor: pointer;
+}
+
+button:hover {
+	display: inline-block;
+	-webkit-transform: scale(1.1);
+}
+
+@keyframes shift {
+    from {}
+    to   { right: -264px}
+}
+
+/*/* Firefox < 16 */
+@-moz-keyframes shift {
+    from {}
+    to   { right: -264px}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes shift {
+    from {}
+    to   { right: -264px}
+}
+
+/* Internet Explorer */
+@-ms-keyframes shift {
+    from {}
+    to   { right: -264px}
+}

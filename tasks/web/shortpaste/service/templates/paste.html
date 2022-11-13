@@ -1,0 +1,9 @@
+{{define "title"}} {{.Paste.Title}} {{end}}
+
+{{define "content"}} 
+		<div class="subcontainer" id="form">
+				<div class="justText h2Text" style="margin-bottom: -10px">[ {{.Paste.Title}} ]</div>
+				<div><span style="font-size: 12px"class="justText">Автор: {{.AuthorUsername}}</span></div>
+				<div><span style="color: #ECE5D5;font-size: 14px;">{{.Paste.Content}}</span><br></div>
+		</div>
+{{end}}

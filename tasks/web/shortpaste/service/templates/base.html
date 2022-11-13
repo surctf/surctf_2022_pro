@@ -1,0 +1,36 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="/static/css/style.css" rel="stylesheet" />
+	<link href="/static/favicon.png" rel="icon" />
+	<title> {{template "title" .}} </title>
+</head>
+<body>
+
+	<div id="headerContainer">
+		<div id="headerLine"></div>
+		<div id="header">
+			<span id="logo">
+				<span class="justText">[ <a href="/"><span style="color: #D2C39D;">SHORT</span>Paste</a> ]</span>
+			</span>
+			<span id="profileLogout">
+				{{if .UserAuth.IsAuthorized}}
+					<span class="justText">&lt <span style="color: #50B95A;">hype</span>user_{{.UserAuth.User.ID}} &gt</span>
+					<span class="justText">[ <a href="/logout">Выйти</a> ]</span>
+				{{end}}
+			</span>
+		</div>
+		<div id="headerLine"></div>
+	</div>
+	<div id="content">
+		{{if .WithError}}
+			<div id="error"><span>{{.Error}}</span></div>
+		{{end}}
+		{{template "content" .}}
+	</div>
+</body>
+</html>
+{{end}}

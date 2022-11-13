@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  shortpaste:
+    container_name: shortpaste
+    image: shortpaste
+    build: .
+
+    ports:
+      - 7733:7733
+    restart: unless-stopped
