@@ -1,0 +1,1 @@
+`flag: surctf_u_f1nd_m3_its_s0_coooool`

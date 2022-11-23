@@ -1,0 +1,1 @@
+`flag: surctf_fe34fas23d3_you_never_find_this_bot`

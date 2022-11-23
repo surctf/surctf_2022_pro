@@ -1,0 +1,1 @@
+`flag: surctf_b3s1_r8verse_ta3k_e2v2r`

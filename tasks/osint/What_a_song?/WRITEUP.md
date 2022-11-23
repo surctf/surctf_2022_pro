@@ -1,0 +1,1 @@
+`flag: surctf_g3n1us_sugar`

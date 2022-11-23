@@ -1,0 +1,1 @@
+`flag: surctf_s3cr3t_ingr3d1ent_decl4ss1fi3d`

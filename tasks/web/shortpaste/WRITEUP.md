@@ -1,0 +1,1 @@
+`flag: surctf_jwt_is_rly_hyped_th1ng_swagXD`

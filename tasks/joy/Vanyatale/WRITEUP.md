@@ -1,0 +1,1 @@
+`flag: surctf_r3alpr0_0r_d1rtyhack3r`

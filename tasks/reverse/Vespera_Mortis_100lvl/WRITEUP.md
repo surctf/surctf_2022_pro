@@ -1,0 +1,1 @@
+`flag: surctf_che4t_shi1i1t`

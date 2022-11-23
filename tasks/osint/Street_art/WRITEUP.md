@@ -1,0 +1,1 @@
+`flag: surctf_rafa3l_str33t_artist`

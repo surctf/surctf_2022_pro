@@ -1,0 +1,1 @@
+`flag: surctf_vanja_m39a_h1dd3n_flag`
