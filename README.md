@@ -63,4 +63,4 @@
 * [Никита Новичков](https://github.com/and00re) - разработчик платформы
 * [Артур Валиев](https://github.com/h0pedev) — дизайнер соревнований
 
-Отдельная благодарность за помощь с организацией соревнований: [Анастасии](https://t.me/ptitsa_petritsa), [Софье](https://t.me/LegalnotSophie) и [Антону](https://t.me/Antoha243).
+Отдельная благодарность за помощь с организацией соревнований: [Анастасии](https://t.me/ptitsa_petritsa), [Софии](https://t.me/LegalnotSophie) и [Антону](https://t.me/Antoha243).
