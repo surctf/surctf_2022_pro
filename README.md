@@ -61,4 +61,6 @@
 * [Евгений Живайкин](https://github.com/EZhivaikin) — разработчик платформы
 * [Александр Румянцев](https://github.com/awakentrue) - разработчик платформы
 * [Никита Новичков](https://github.com/and00re) - разработчик платформы
-* [Артур Валиев](https://github.com/h0pedev) — разработчик дизайна соревнования
+* [Артур Валиев](https://github.com/h0pedev) — дизайнер соревнований
+
+Отдельная благодарность за помощь с организацией [Анастасии](https://t.me/ptitsa_petritsa), [Софье](https://t.me/LegalnotSophie) и [Антону](https://t.me/Antoha243).
