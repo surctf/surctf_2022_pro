@@ -59,5 +59,6 @@
 Команда LastHopeGateway
 
 * [Евгений Живайкин](https://github.com/EZhivaikin) — разработчик платформы
+* [Александр Румянцев](https://github.com/awakentrue) - разработчик платформы
+* [Никита Новичков](https://github.com/and00re) - разработчик платформы
 * [Артур Валиев](https://github.com/h0pedev) — разработчик дизайна соревнования
-
