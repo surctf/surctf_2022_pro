@@ -26,7 +26,7 @@
 
 ### `#osint`
 [Onotole](tasks/osint/Onotole) (osint 200)  
-[What_a_song?](tasks/osint/What_a_song?) (osint 100)  
+[What_a_song?](tasks/osint/What_a_song%3F) (osint 100)  
 [Street_art](tasks/osint/Street_art) (osint 150)  
 [catch_me_if_u_can](tasks/osint/catch_me_if_u_can) (osint 100)  
 
@@ -49,14 +49,15 @@
 
 Команда PunchClub
 
-* [Сергей Кацур](https://github.com/richkats) — руководитель команды разработки, разработчик тасков
+* [Сергей Кацур](https://github.com/richkats) — разработчик тасков
 * [Максим Заказчик](https://github.com/s4lat) — разработчик тасков  
 * [Егор Захаров](https://github.com/pigadoor) — разработчик тасков  
 * [Эдуард Юнусов](https://github.com/Killllero0) — разработчик тасков  
-* [Даниил Емельянов](https://github.com/fezwect) — разработчик тасков (армейских не мобилизованных)
-* [Даниил Петренко](https://github.com/bendermachine) — разработчик тасков  
+* [Даниил Петренко](https://github.com/bendermachine) — разработчик тасков
+* [Вадим Кадырин](https://github.com/galaxyshad) — разработчик тасков  
 
 Команда LastHopeGateway
 
 * [Евгений Живайкин](https://github.com/EZhivaikin) — разработчик платформы
 * [Артур Валиев](https://github.com/h0pedev) — разработчик дизайна соревнования
+
