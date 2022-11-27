@@ -49,12 +49,12 @@
 
 Команда PunchClub
 
-* [Сергей Кацур](https://github.com/richkats) — разработчик тасков
-* [Максим Заказчик](https://github.com/s4lat) — разработчик тасков  
-* [Егор Захаров](https://github.com/pigadoor) — разработчик тасков  
-* [Эдуард Юнусов](https://github.com/Killllero0) — разработчик тасков  
-* [Даниил Петренко](https://github.com/bendermachine) — разработчик тасков
-* [Вадим Кадырин](https://github.com/galaxyshad) — разработчик тасков  
+* [Сергей Кацур](https://github.com/richkats) — автор тасков
+* [Максим Заказчик](https://github.com/s4lat) — автор тасков  
+* [Егор Захаров](https://github.com/pigadoor) — автор тасков  
+* [Эдуард Юнусов](https://github.com/Killllero0) — автор тасков  
+* [Даниил Петренко](https://github.com/bendermachine) — автор тасков
+* [Вадим Кадырин](https://github.com/galaxyshad) — автор тасков  
 
 Команда LastHopeGateway
 
