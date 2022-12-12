@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+body {
+  background: #e86152;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Alice";
+  text-align: center;
+}
+
+.option {
+  font-size: 2.25em;
+  font-weight: 500;
+  color: #e86152;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-family: "Alice";
+  text-align: center;
+}
+
+#white {
+  color: white;
+}
+
+#red {
+  color: red;
+}
+
+#center {
+  color: white;
+}
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  width: 800px;
+  height: 650px;
+  background: white;
+}
+.left-container {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0%;
+  background: #d15449;
+}
+.right-container {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0%;
+  background: #fde4a7;
+}
+
+.option-container {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  top: 10%;
+  left: 15%;
+  z-index: 2;
+  background: none;
+  font-family: "Alice";
+  color: #e86152;
+  margin-top: 5%;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.option-list {
+  font-size: 1.45em;
+  font-weight: 500;
+  color: #e86152;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-family: "Alice";
+  text-align: center;
+}
+
+li {
+  list-style-type: disc;
+}
+
+input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+}
+input[type="text"]:focus {
+  border: 1px solid #000;
+}
+
+input[placeholder] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  font-family: "Alice";
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border: 1px solid #000;
+  background: #ffd142;
+  color: #e64f3b;
+  text-transform: uppercase;
+  font-family: "Alice";
+}
+
+input[type="submit"]:hover {
+  color: red;
+}
+
+input[type="submit"]:active {
+  background: #ffa142;
+  color: darkred;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PizzaForFriends</title>
+</head>
+
+<body>
+  <style>
+    @import '../static/css/style.css';
+  </style>
+
+  <div id="app">
+    <h1 class="title">ПИЦЦА ДЛЯ ДРУЗЕЙ</h1>
+    <div class="box">
+      <div class="left-container">
+        <div class="option"><span id="white">ИНФО:</span></div>
+        <div class="option-container">
+          <span id="white">Мы прогрессивная контора, которая доставляет самые вкусные пиццы.</span><br><br>
+          <span id="white">Почему мы считаем наши пиццы самыми вкусными?</span>
+          <span id="white">Все просто, вы сами собираете свою любимую пиццу из ингредиентов справа</span>
+          <br><br>
+          <form action="" method="post">
+            <input name="item" type="text" placeholder="СЮДА ИНГРЕДИЕНТ" required>
+            <input type="submit" value="Добавить">
+          </form>
+          {% with messages = get_flashed_messages() %}
+             {% if messages %}
+                {% for message in messages %}
+                   <span id="red">{{ message }}</span>
+                {% endfor %}
+             {% endif %}
+          {% endwith %}
+          <div class="option-list"><span id="white">ВАШИ ИНГРЕДИЕНТЫ:</span></div>
+          <span id="white">({{ count }}/5)</span>
+          <span id="white">
+            {% for item in selected %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </span>
+          <form action="/reset">
+            <input type="submit" value="Очистить">
+          </form>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="option">ИНГРЕДИЕНТЫ:</div>
+        <div class="option-container">
+          {% for item in all %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
