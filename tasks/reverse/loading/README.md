@@ -9,4 +9,4 @@ by @galaxyshad, reverse, 350
 >  
 > [Клик сюды ту довнлоад](rly-important-data-downloader.exe)  
 
-[Write-up](WRITEUP.md)
+[Write-up](writeups.pdf)
