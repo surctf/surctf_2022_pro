@@ -5,4 +5,4 @@ by @galaxyshad, stegano, 250
 >   
 > [Vanyatale SURCTF Edition - win32.rar](Vanyatale_SURCTF_Edition.rar)  
 
-[Write-up](WRITEUP.md)
+[Write-up](writeups.pdf)
