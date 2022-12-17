@@ -1,4 +1,4 @@
-# surctf_2022_spring
+# surctf_2022_pro
 
 19 ноября 2022 года
 
